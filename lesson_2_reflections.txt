@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a hidden folder called .git that then starts tracking changes (commits). All the commits/file changes (emtadata) is stored in this folder.
