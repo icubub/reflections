@@ -6,3 +6,15 @@ How is the staging area different from the working directory and the repository?
 	
 How can you use the staging area to make sure you have one commit per logical change?
 	Using git status, can see what changes have been made, and which are not yet committed. Can run git diff as well.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you want to try something experimental, or maybe a different language version, etc. Allows you to save different versions but still maintain the original version as well.
+	
+How do the diagrams help you visualize the branch structure?
+	To help you understand at what commit the brnaching occurs, and allows you to trace back the commits in each branch.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Adds all the changes made down each brnach together. Becuase now master contains both branches of changes.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Speeds up the operation, but cannot resolve the same areas of the program where 2 different changes may have occurred.
